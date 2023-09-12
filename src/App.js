@@ -46,15 +46,10 @@ const router = createBrowserRouter([
 //   <RouterProvider router={router} />
 // );
 
-
-
 function App() {
+  
   return (
     <div className="App">
-        {/* <Home/> */}
-        {/* <LoginPage/> */}
-        {/* <SignupPage/> */}
-
         <RouterProvider router={router} />
     </div>
   );
