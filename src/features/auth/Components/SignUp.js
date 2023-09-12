@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import {Link} from "react-router-dom";
 
 function SignUp() {
   return (
@@ -83,9 +84,9 @@ function SignUp() {
 
           <p className="mt-10 text-center text-sm text-gray-500">
                 Already a Member ?{' '}
-            <a href="#" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
+            <Link to="/login" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
                 Log in
-            </a>
+            </Link>
           </p>
         </div>
       </div>
@@ -93,4 +94,4 @@ function SignUp() {
   )
 }
 
-export default SignUp
+export default SignUp;
